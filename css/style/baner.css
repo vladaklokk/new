@@ -1,0 +1,83 @@
+.baner .main_bg{
+  background-color: #e5e8eb
+}
+.baner .bg_img{
+  background-image: url(/img/bck.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.baner a img{
+  margin: 10px 0px;
+}
+
+.baner .blockh1{
+  background-color: var(--color_btn_send_message_hover);
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  width: 500px;
+  height: 65px;
+  margin: 10px 50px 20px;
+  box-shadow: 2px 3.464px 3.5px rgba(155, 182, 190, 0.75)
+}
+
+
+.baner .blockh1 h1{
+  margin: 0px 0px;
+}
+.baner  h3{
+  padding: 15px 0px 0px 100px;
+  margin: 0px;
+}
+
+.baner .left img {
+  width: 600px;
+  margin: 40px 50px 10px;
+}
+
+.baner .left ul{
+  padding-left: 100px;
+  width: 550px;
+  line-height: 1.5;
+}
+.baner .left ul li{
+  font-weight: 600;
+  padding: 2px 0px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: var(--color_p_text);
+}
+.baner .button a{
+  font-family:  Roboto_Refular;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  color: var(--color_btn_read_more);
+  display: inline-block;
+  border: 1px solid var(--color_main_1);
+  width: 230px;
+}
+
+.baner .left ul li::marker{
+  color: var(--color_main_1);
+}
+.row_btn{
+  width: 550px;
+  margin-left: 80px;
+}
+
+.baner .btn1 a{
+  float: left;
+  margin: 5px 0px 0px 20px;
+}
+.baner .btn2 a{
+  margin: 5px 0px 10px 20px;
+}
+.baner .btn3 a{
+  float: left;
+  margin: 5px 0px 10px 20px;
+}
+.baner .btn4 a{
+  margin: 5px 0px 10px 20px;
+}

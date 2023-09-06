@@ -1,0 +1,67 @@
+header{
+  background-color: var(--color_main_2);
+  background-image: url(../../img/Bg1.svg);
+  height: 57px;
+}
+
+.row_head {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.row_head a{
+  padding-right: 30px;
+}
+
+
+.phonen{
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+header span, header a{
+  font-size: 20px;
+  color: #517898;
+  font-weight: 250;
+  font-family: Roboto_Refular;
+}
+
+header a{
+  color: #caddea;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: 250;
+}
+
+.login_and_chat{
+  display: flex;
+  justify-content: end;
+}
+
+.login_and_chat img{
+  width: 45px;
+}
+
+.login, .live_chat{
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color:  var(--color_btn_text);
+  font-weight: 400;
+  font-family: Roboto_Refular;
+}
+
+
+
+.login:hover, .live_chat:hover{
+  color: var(--color_btn_text_hover);
+}
+
+
