@@ -32,4 +32,10 @@ nav ul li a:hover{
   color: var(--color_btn_text_hover);
 }
 
-
+.border_li::after{
+  content: "";
+  border: 2px solid #fff;
+  border-radius: 3px;
+  position: relative;
+  left: 2px;
+}
