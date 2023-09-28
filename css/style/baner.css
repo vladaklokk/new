@@ -1,10 +1,12 @@
 .baner .main_bg{
   background-color: #e5e8eb;
   margin: auto 0;
+  height: 590px;
 }
 .baner .bg_img{
   background-image: url('/img/bck1.png');
-  background-size: 100%;
+  background-size: 105%;
+  height: 590px;
 }
 .baner a img{
   margin: 10px 0px;
@@ -38,6 +40,7 @@
 .baner  h3{
   padding: 15px 0px 0px 100px;
   margin: 0px;
+  
 }
 
 .baner .left img {

@@ -24,6 +24,8 @@ body{
   --color_btn_text: #fff;
   --color_btn_text_hover:#1b7fd0;
 
+  --color_back: #f4f6fa;
+
 }
 
 @font-face {
