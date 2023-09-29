@@ -27,6 +27,7 @@ nav a{
   font-family: Roboto_Refular;
   color: var(--color_btn_text);
 }
+
 nav ul li a:hover{
   background-color: var(--color_btn_send_message_hover);
   color: var(--color_btn_text_hover);
